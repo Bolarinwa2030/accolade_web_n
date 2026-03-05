@@ -13,7 +13,7 @@ const Navbar = () => {
       <img src={assets.Logo_Correct} className="w-38 sm:w-40" alt="Logo" />
 
       <div
-        className={`text-gray-700 dark:text-white sm:text-sm ${
+        className={`text-gray-700 sm:text-sm ${
           !sidebarOpen
             ? "max-sm:w-0 overflow-hidden"
             : "max-sm:w-60 max-sm:pl-10"
@@ -60,7 +60,7 @@ const Navbar = () => {
       </a>
       <a
         href="#contact-us"
-        className="text-sm max-sm-hidden flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full cursor-pointer hover:scale-105 transition-all"
+        className="text-sm max-sm:hidden flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full cursor-pointer hover:scale-105 transition-all"
       >
         Contact Us
         <img src={assets.arrow_icon} width={14} alt="Arrow" />
