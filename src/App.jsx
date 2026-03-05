@@ -4,15 +4,17 @@ import Hero from "./components/Hero";
 import Service from "./components/Service";
 import WhoWeAre from "./components/WhoWeAre";
 import ContactUs from "./components/ContactUs";
+import Footers from "./components/Footers";
 
 const App = () => {
-    return (
+  return (
     <div>
       <Navbar />
       <Hero />
       <Service />
       <WhoWeAre />
-      <ContactUs/>
+      <ContactUs />
+      <Footers />
     </div>
   );
 };
