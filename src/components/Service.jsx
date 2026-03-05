@@ -42,7 +42,10 @@ const Service = () => {
     },
   ];
   return (
-    <div id="services" className="flex flex-col items-center gap-8 px-4 sm:px-12 lg:px-24 xl:px-40 pt-32 text-gray-700 bg-gradient-to-b from-[#FFF5E1] to-[#FDE3B9]">
+    <div
+      id="services"
+      className="flex flex-col items-center gap-8 px-4 sm:px-12 lg:px-24 xl:px-40 pt-32 text-gray-700 bg-gradient-to-b from-[#FFF5E1] to-[#FDE3B9]"
+    >
       {/* Section Title */}
       <Title
         title="Our Service"
@@ -61,10 +64,10 @@ const Service = () => {
                 alt={work.title}
                 className="w-full h-100 object-cover rounded-xl"
               />
-              <h3 className="mt-4 mb-2 text-lg font-bold text-gray-800 dark:text-white">
+              <h3 className="mt-4 mb-2 text-lg font-bold text-gray-800">
                 {work.title}
               </h3>
-              <p className="text-sm text-gray-500 dark:text-gray-300 leading-relaxed">
+              <p className="text-sm text-gray-500 dark:text-gray-700 leading-relaxed">
                 {work.description}
               </p>
             </div>
