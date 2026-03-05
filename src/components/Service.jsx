@@ -42,7 +42,7 @@ const Service = () => {
     },
   ];
   return (
-    <div id="services" className="flex flex-col items-center gap-8 px-4 sm:px-12 lg:px-24 xl:px-40 pt-32 text-gray-700 dark:text-white bg-gradient-to-b from-[#FFF5E1] to-[#FDE3B9]">
+    <div id="services" className="flex flex-col items-center gap-8 px-4 sm:px-12 lg:px-24 xl:px-40 pt-32 text-gray-700 bg-gradient-to-b from-[#FFF5E1] to-[#FDE3B9]">
       {/* Section Title */}
       <Title
         title="Our Service"
@@ -54,7 +54,7 @@ const Service = () => {
           {ourService.map((work, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-md hover:shadow-xl transform hover:scale-105 transition-all duration-300 cursor-pointer"
+              className="bg-white p-4 rounded-xl shadow-md hover:shadow-xl transform hover:scale-105 transition-all duration-300 cursor-pointer"
             >
               <img
                 src={work.image}
