@@ -14,7 +14,7 @@ const Service = () => {
       title: "Electrical Work",
       description:
         "Expert wiring, panel upgrades, lighting installations, and troubleshooting services delivered with precision and safety you can trust.",
-      image: assets.service_img_4,
+      image: assets.Electrical_Img,
     },
     {
       title: "Sales of Solar Accessories",
@@ -23,22 +23,16 @@ const Service = () => {
       image: assets.service_img_3,
     },
     {
-      title: "Sales of Solar Accessories",
+      title: "CCTV Installation",
       description:
         "High-quality solar accessories including inverters, batteries, charge controllers, and mounting systems. Reliable products designed to maximize your system’s performance.",
-      image: assets.service_img_3,
+      image: assets.cctv_installation,
     },
     {
-      title: "Sales of Solar Accessories",
+      title: "Sales of CCTV Accessories",
       description:
         "High-quality solar accessories including inverters, batteries, charge controllers, and mounting systems. Reliable products designed to maximize your system’s performance.",
-      image: assets.service_img_3,
-    },
-    {
-      title: "Solar Installation",
-      description:
-        "Professional solar panel installation designed to lower your energy bills and increase efficiency. We deliver safe, reliable, and high-performance systems built to power your future.",
-      image: assets.service_img_1,
+      image: assets.cctv_accessorires,
     },
   ];
   return (

@@ -17,6 +17,9 @@ import Skilled_Img from "./Skilled_Img.jpg";
 import person_icon from "./person_icon.svg";
 import email_icon from "./email_icon.svg";
 import WhatsApp from "./WhatsApp.svg";
+import Electrical_Img from "./Electrical_Img.jpg";
+import cctv_installation from "./cctv_installation.jpg";
+import cctv_accessorires from "./cctv_accessorires.jpg";
 
 const assets = {
   logo,
@@ -38,6 +41,9 @@ const assets = {
   person_icon,
   email_icon,
   WhatsApp,
+  Electrical_Img,
+  cctv_accessorires,
+  cctv_installation,
 };
 
 export default assets;
