@@ -25,13 +25,13 @@ const Service = () => {
     {
       title: "CCTV Installation",
       description:
-        "High-quality solar accessories including inverters, batteries, charge controllers, and mounting systems. Reliable products designed to maximize your system’s performance.",
+        "Protect what matters most with our professional CCTV installation solutions. We provide end-to-end surveillance systems for homes, businesses, and commercial properties — designed to give you complete peace of mind, 24/7.",
       image: assets.cctv_installation,
     },
     {
       title: "Sales of CCTV Accessories",
       description:
-        "High-quality solar accessories including inverters, batteries, charge controllers, and mounting systems. Reliable products designed to maximize your system’s performance.",
+        "Complete your surveillance system with our wide range of high-quality CCTV accessories. Whether you're setting up a brand-new system or upgrading an existing one, we stock everything you need to keep your cameras running at their best",
       image: assets.cctv_accessorires,
     },
   ];
